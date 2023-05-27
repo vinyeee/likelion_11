@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.nav-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "NeoDunggeunmoPro-Regular";
+    font-size: 50px;
+    background-image: linear-gradient(to right, black, #C48BF0, #E349A9, #EC8EC8, #C48BF0, black);
+}
+
+.main-wrapper {
+    display: flex;
+}
+
+.side-bar {
+    background: linear-gradient(to top, #312F33, #4A137B, #312F33);
+    height: 250vh;
+    min-height: 750px;
+    width: 15vw;
+    min-width: 200px;
+    border-radius: 0px 0px 0px 5px;
+    color: white;
+}
+
+.side-bar p {
+    margin: 50px;
+}
+
+.main {
+    width: calc(100% - 200px);
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > .box > img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(116, 110, 110);
+    border-radius: 50%;
+    margin: 20px 100px;
+}
+
+.main > .box {
+    font-family: "NeoDunggeunmoPro-Regular";
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.side-bar p > a > img {
+    border-radius: 20px;
+}
+
+.point {
+    color: #C48BF0;
+}
+
+.interests {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "NeoDunggeunmoPro-Regular";
+    display: flex;
+}
+
+.interests > ul > li {
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+
+
+.interests > ul > li > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.from {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "NeoDunggeunmoPro-Regular";
+    display: flex;
+}
+
+.from > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.projects {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "NeoDunggeunmoPro-Regular";
+    display: flex;
+}
+
+.projects > ul > li > img{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
+}
